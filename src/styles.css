@@ -1,0 +1,101 @@
+body {
+  color: rgb(100, 118, 218);
+  background: linear-gradient(
+    109.6deg,
+    rgb(220, 196, 252) 11.2%,
+    rgb(150, 199, 253) 100.2%
+  );
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: 0px auto;
+  display: block;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+}
+
+.weather-app {
+  padding: 10px;
+  margin: 20px;
+}
+
+.form {
+  margin: 10px 10px 5px;
+}
+
+input {
+  padding: 6px;
+  font-size: 18px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  color: rgb(79, 94, 179);
+}
+
+[type="text"] {
+  width: 100%;
+}
+
+[type="submit"] {
+  background: white;
+  width: 100%;
+}
+
+.current-date {
+  margin: 5px 20px 10px;
+  font-size: 20px;
+}
+
+.currentCity,
+.currentTemp {
+  margin: 0 auto;
+  font-size: 60px;
+  text-align: center;
+}
+
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -30px;
+  left: -10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.details {
+  text-align: left;
+  position: relative;
+  left: 95px;
+  font-size: 20px;
+}
+
+.forecast {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 40px;
+}
+
+.five-day {
+  padding: 8px;
+}
+
+.forecast-day {
+  font-size: 20px;
+  margin: 4px;
+}
+
+.forecast-icon {
+  font-size: 35px;
+  margin: 15px;
+  padding: 10px;
+}
