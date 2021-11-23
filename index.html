@@ -36,9 +36,12 @@
                   id="search-text-input"
                 />
             </div>
-            <div class="col-3">
+            <div class="col-2">
               <input type="submit" value="Search" />
-            </div>
+						</div>
+						<div class="col-2">
+							<button id="current-location">Current</button>
+						</div>
           </div>
         </form>
           <div class="row">
@@ -54,12 +57,12 @@
               <span id="current-temp">16</span>
               <span class="units">
                 <a href="#" id="celsius-link">℃</a>
-                <a href="#" id="fahrenheit-link">℉</a>
+                <a href="#" id="fahrenheit-link"></a>
               </span>
               <div class="row details" id="#details">
-                <div><strong>Rain</strong></div>
-                <div>Wind:</div>
-                <div>Humidity:</div>
+                <div id="description"><strong>Rain</strong></div>
+                <div id="wind">Wind:</div>
+                <div id="humidity">Humidity:</div>
               </div>
           </div>
           </div>
